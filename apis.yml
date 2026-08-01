@@ -1,8 +1,24 @@
 aid: think-parametric
 name: Think Parametric
-description: Think Parametric is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Think Parametric is an online learning platform for architecture, engineering,
+  and design professionals, offering expert-led courses and professional certifications in
+  computational and parametric design tools including Rhino, Grasshopper, Revit, Dynamo,
+  SketchUp, and V-Ray. Membership plans give individuals and organizations access to a
+  library of 60+ courses taught by practitioners from leading firms such as SOM, BIG,
+  Gensler, AECOM, and Arup, alongside community forums, downloadable assets, and progress
+  tracking. Backed by 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://thinkparametric.com/images/OG-image.png
 url: https://raw.githubusercontent.com/api-evangelist/think-parametric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- E-Learning
+- Architecture
+- Design
+- BIM
+- Parametric Design
+- Professional Certification
+- Online Courses
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://thinkparametric.com
+  url: https://www.thinkparametric.com
+- type: Blog
+  url: https://blog.thinkparametric.com
+- type: Support
+  url: https://www.thinkparametric.com/help
+- type: Login
+  url: https://www.thinkparametric.com/sign-in
+- type: TermsOfService
+  url: https://www.thinkparametric.com/terms
+- type: PrivacyPolicy
+  url: https://www.thinkparametric.com/privacy
+- type: DomainSecurity
+  url: security/think-parametric-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
