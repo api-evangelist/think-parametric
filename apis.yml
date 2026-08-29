@@ -7,6 +7,17 @@ description: Think Parametric is an online learning platform for architecture, e
   library of 60+ courses taught by practitioners from leading firms such as SOM, BIG,
   Gensler, AECOM, and Arup, alongside community forums, downloadable assets, and progress
   tracking. Backed by 500 Global.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
